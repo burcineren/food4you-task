@@ -1,0 +1,147 @@
+h1{
+  font-family: 'Fredericka the Great', cursive !important;
+  font-size: 3.5rem !important;
+}
+.text-1{
+  font-family: 'Dancing Script', cursive !important;
+}
+.text-2{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.text-3{
+  font-family: 'Fredericka the Great', cursive !important;
+}
+.bg{
+  background: url("img/bg_1.png");
+  background-repeat: no-repeat;
+}
+.bg-2{
+  background: url("img/bg_4.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.bg-3{
+  background: url("img/bg_5.png");
+  background-repeat: no-repeat;
+  
+}
+.text-p{
+  font-size: 15px !important;
+  text-align:justify;
+}
+.s-icon{
+  color: #ffe001;
+  font-size: 30px;
+}
+.bg-4{
+  background: url("img/bg_6.png");
+  background-repeat: no-repeat;
+  
+}
+.carousel-inner{
+  height: 850px !important;
+}
+.img-1{
+  height: 65%;
+  width: 90%;
+}
+.btn-read{
+  background-color: #FFE001;
+  color:rgb(10, 10, 10);
+
+}
+.btn-center{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 70px !important;
+}
+.btn-read:hover{
+  color:rgb(10, 10, 10) !important;
+}
+.slide-mar{
+  margin-top: 120px !important;
+}
+.button{
+  position: relative;
+  justify-content: center !important;
+  align-items: center;
+}
+.btn{
+  border-radius: .0rem !important;
+}
+.bg-banner{
+  background: url("img/bg_2.png");
+  background-repeat: no-repeat;
+}
+.input{
+  margin: 5px 0px;
+}
+.footer-bg{
+  background: url("img/bg_3.png");
+  background-repeat: no-repeat;
+  
+}
+.footer-btn{
+  border-radius: 3rem !important;
+}
+.slide-section {
+    width: 40em;
+    height: 25em;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slide-li {
+    width: 500px;
+    height: 281px;
+    background: #333;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .items {
+    position: absolute;
+  }
+  
+  .main-pos {
+    margin-left: 2em !important;
+    z-index: 3000;
+    /*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
+  }
+  
+  .left-pos {
+    opacity: .3;
+    margin-left: -17em !important;
+    z-index: 1000;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+  }
+  
+  .back-pos {
+    margin-left: 2em !important;
+    opacity: .05;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
+  }
+  
+  .right-pos {
+    opacity: .3;
+    margin-left:  21em !important;
+    z-index: 1000;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+  }
+  
+  .slide-span {
+    position: relative;
+    margin: 0 auto;
+    left: 17em;
+    top: 20em;
+  }
