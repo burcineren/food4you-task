@@ -68,7 +68,7 @@ h1{
   align-items: center;
 }
 .btn{
-  border-radius: .0rem !important;
+  border-radius: 0rem !important;
 }
 .bg-banner{
   background: url("img/bg_2.png");
@@ -145,3 +145,6 @@ h1{
     left: 17em;
     top: 20em;
   }
+
+
+  
